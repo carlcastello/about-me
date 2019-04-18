@@ -1,0 +1,6 @@
+- page_url: 'https://www.instagram.com/carl.castello/'
+  page_name: 'instagram'
+- page_url: '/'
+  page_name: 'blog'
+- page_url: '/'
+  page_name: 'about'
