@@ -1,0 +1,31 @@
+.navbar-brand hr {
+    margin-top: -1px;
+    margin-bottom: 0;
+}
+
+.image-group-container {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.gallery-image {
+    max-width: max-content;
+}
+
+.gallery-image img {
+    max-height: 480px;
+}
+
+.gallery-image-odd {
+    margin-right: 5px; 
+}
+
+.gallery-image-even {
+    margin-left: 5px;
+}
+
+
+footer a {
+    color: $gray-900;
+    text-decoration: underline;
+}
