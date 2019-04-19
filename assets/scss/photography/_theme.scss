@@ -9,7 +9,12 @@
 }
 
 .gallery-image {
+    @include transition(transform .2s ease);
     max-width: max-content;
+}
+
+.gallery-image:hover {
+    transform: scale(1.015);
 }
 
 .gallery-image img {
