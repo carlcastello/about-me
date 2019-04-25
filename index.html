@@ -7,21 +7,8 @@ layout: frontpage
         {% for post in site.posts %}
             {% assign remainder = forloop.index | modulo: 2 %}
             {% if remainder == 1 %}<div class="image-group-container">{% endif %}
-            {% if post.image_aspect_ratio == "SIXTEEN_BY_NINE" %}
-                {% if post.image_orientation == "HORIZONTAL" %}
-                    {% include gallery_image.html info=post %}
-                {% elsif post.image_orientation == "VERTICAL" %}
-                {% endif %}
-            {% elsif post.image_aspect_ratio == "FOUR_BY_THREE" %}
-                {% if post.image_orientation == "HORIZONTAL" %}
-                    {% include gallery_image.html info=post %}
-                {% elsif post.image_orientation == "VERTICAL" %}
-                    {% include gallery_image.html info=post %}
-                {% endif %}
-            {% elsif post.image_aspect_ratio == "SQUARE" %}
                 {% include gallery_image.html info=post %}
-            {% endif %}
-            {% if remainder == 0 %}</div>{% endif %}
+            {% if remainder == 0 %}</div>{% endif %} 
         {% endfor %}
     </div>
 </section>
