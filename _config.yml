@@ -6,6 +6,7 @@ description: >-
   Google search results) and in your feed.xml site description.
 baseurl: "/photography"
 url: "https://carlcastello.github.io"
+
 # twitter_username: jekyllrb
 github_username:  carlcastello
 
