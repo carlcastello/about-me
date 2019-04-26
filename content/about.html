@@ -1,62 +1,52 @@
 ---
 title: About
-layout: external
+layout: classic
 
 permalink: /about
 ---
 
 <div class="container">
-    <dl class="row">
-        <dt class="col-sm-3">
-            Summary
-        </dt>
-        <dd class="col-sm-9">
-            A very enthusiastic and highly adaptive software developer with a passion for technology, entrepreneurship and photography.
-        </dd>
-        <dt class="col-sm-3">
-            Qualifications
-        </dt>
-        <dd class="col-sm-9">
-            <ul>
-                <li>
-                    <strong>Front End Development</strong>
-                    <ul>
-                        <li>
-                            Proficient in React
-                        </li>
-                        <li>
-                            Skilled in HTML5, CSS4, SASS, Javascript and Jquery
-                        </li>
-                        <li>
-                            Experienced in Material-UI, Bootstrap 3 and Bootstrap 4
-                        </li>
-                        <li>
-                            Worked with Google Tag Manager for SEO and auditing conversion rate
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Back End Development</strong>
-                    <ul>
-                        <li>
-                            Skilled in Python based web frameworks such as Django, Flask and GAE
-                        </li>
-                        <li>
-                            Familiar with Java based web frameworks such as Java Spark and Maven
-                        </li>
-                        <li>
-                            Adept with SQL and NOSQL databases such as MySQL and Firebase
-                        </li>
-                        <li>
-                            Experienced in both microservice and monolithic architecture
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </dd>
-    </dl>
-    <dl class="row">
-        <dd>
-        </dd>
-    </dl>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col">
+                    <img src="{{ 'assets/images/800:480.png' | relative_url }}" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <a class="btn btn-primary w-100" href="https://github.com/carlcastello" target="_blank">
+                        Github
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <a class="btn btn-primary w-100" href="https://www.linkedin.com/in/carl-castello-0673a6148/" target="_blank">
+                        Linkedin
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <p>
+                Pellentesque tellus massa, vehicula nec est nec, sollicitudin sagittis magna. Sed lorem purus, elementum ut ante vitae,
+                efficitur laoreet odio. Etiam eget pulvinar velit, vulputate venenatis dui. Vestibulum congue molestie sem.
+            </p>
+            <p>
+                Morbi auctor ex a magna vehicula bibendum. Curabitur suscipit felis a consectetur mattis. Ut nec varius nibh.
+                Nam orci erat, iaculis ut orci sit amet, elementum sollicitudin lacus. Mauris accumsan
+            </p>
+            <p>
+                Etiam aliquam posuere consectetur. Mauris vehicula lectus vitae suscipit gravida.
+                Integer ante massa, vulputate vitae ante quis, iaculis semper turpis. Nunc vestibulum, ex vel hendrerit bibendum,
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col">
+            {% include resume.html %}
+        </div>
+    </div>
 </div>

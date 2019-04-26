@@ -1,0 +1,127 @@
+
+<dl class="row">
+    <dt class="col-sm-3">
+        Qualifications
+    </dt>
+    <dd class="col-sm-9">
+        <div id="accordion">
+            <button class="btn btn-link w-100 px-0 text-left" data-toggle="collapse" data-target="#front-end-developer" aria-expanded="true" aria-controls="front-end-developer">
+                Front End Software Development
+            </button>
+            <div id="front-end-developer" class="collapse" aria-labelledby="front-end-developer">
+                <ul>
+                    <li>
+                        Proficient in React
+                    </li>
+                    <li>
+                        Skilled in HTML5, CSS4, SASS, Javascript and Jquery
+                    </li>
+                    <li>
+                        Experienced in Material-UI, Bootstrap 3 and Bootstrap 4
+                    </li>
+                    <li>
+                        Worked with Google Tag Manager for SEO and auditing conversion rate
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-link w-100 px-0 text-left" data-toggle="collapse" data-target="#back-end-developer" aria-expanded="false" aria-controls="back-end-developer">
+                Backend End Software Development
+            </button>
+            <div id="back-end-developer" class="collapse" aria-labelledby="back-end-developer">
+                <ul>
+                    <li>
+                        Skilled in Python based web frameworks such as Django, Flask and GAE
+                    </li>
+                    <li>
+                        Familiar with Java based web frameworks such as Java Spark and Maven
+                    </li>
+                    <li>
+                        Adept with SQL and NOSQL databases such as MySQL and Firebase
+                    </li>
+                    <li>
+                        Experienced in both microservice and monolithic architecture
+                    </li>
+                </ul>
+            </div> 
+            <button class="btn btn-link w-100 px-0 text-left" data-toggle="collapse" data-target="#customer-service" aria-expanded="false" aria-controls="customer-service">
+                Customer Service    
+            </button>           
+            <div id="customer-service" class="collapse" aria-labelledby="customer-service">
+                <ul>
+                    <li>
+                        Suspendisse ligula enim, sodales et ullamcorper sit amet, tempor id odio.
+                    </li>
+                    <li>
+                        Proin id pharetra nibh. Nulla porttitor dui aliquet elit eleifend feugiat.
+                    </li>
+                    <li>
+                        Ut in tortor malesuada, dignissim nunc sit amet, iaculis metus.
+                    </li>
+                    <li>
+                        Pellentesque eros libero, venenatis quis arcu vitae, consectetur dictum ipsum.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </dd>
+</dl>
+<dl class="row">
+    <dt class="col-sm-3">
+        Work Experience
+    </dt>
+    <dd class="col-sm-9">
+        <div class="progress nav nav-pills bg-light" style="height: 20px">
+            {% for history in site.data.work_history %}
+                <a
+                    class="progress-bar" 
+                    style="width: {{ history.width }}%; background-color: {{ history.color }}"
+                    aria-valuenow="{{ history.width }}"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+
+                    id="{{ history.id }}-tab"
+                    href="#{{ history.id }}"
+                    aria-controls="{{ history.id }}"
+                    data-toggle="pill"
+
+                    data-placement="bottom"
+                    title="{{ history.company_name }} - {{ history.position }}">
+                </a>
+            {% endfor %}
+        </div>
+        <small class="float-left">September 2013</small>
+        <small class="float-right">March 2019</small>
+        <div class="tab-content mt-5 border rounded p-2">
+            <div class="tab-pane fade show active" id="default" role="tabpanel" aria-labelledby="default-tab">
+                <p class="text-center">
+                    Click on a color to show work history!!
+                </p>
+            </div>
+            <div class="tab-pane fade" id="skipthedishes" role="tabpanel" aria-labelledby="skipthedishes-tab">
+                <p class="text-center">
+                    SkipTheDishes
+                </p>
+            </div>
+            <div class="tab-pane fade" id="levelup" role="tabpanel" aria-labelledby="levelup-tab">
+                <p class="text-center">
+                    Level UP
+                </p>
+            </div>
+            <div class="tab-pane fade" id="ikea" role="tabpanel" aria-labelledby="ikea-tab">
+                <p class="text-center">
+                    IKEA
+                </p>
+            </div>
+            <div class="tab-pane fade" id="bulkbarn" role="tabpanel" aria-labelledby="bulkbarn-tab">
+                <p class="text-center">
+                    Bulkbarn
+                </p>
+            </div>
+            <div class="tab-pane fade" id="mediashaker" role="tabpanel" aria-labelledby="mediashaker-tab">
+                <p class="text-center">
+                    MediaShaker
+                </p>
+            </div>
+        </div>
+    </dd>
+</dl>

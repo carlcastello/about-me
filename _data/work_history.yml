@@ -1,0 +1,40 @@
+- id: 'bulkbarn' 
+  company_name: 'Bulk Barn'
+  position: 'Stockboy'
+  date: 'September 2013 - April 2015'
+  width: 29.85
+  color: '#ff4337'
+- id: 'default'
+  company_name: 'Unemployed'
+  date: 'May 2013'
+  width: 1.49
+  color: '#f8f9fa'
+- id: 'mediashaker'
+  company_name: 'MediaShaker'
+  position: 'Web development Intern'
+  date: 'June 2015 - August 2015'
+  width: 4.48
+  color: '#ff416c'
+- id: ikea
+  company_name: 'IKEA'
+  position: 'Sales Associate'
+  date: 'September 2015 - March 2017'
+  width: 28.36
+  color: '#0051BA'
+- id: 'default'
+  company_name: 'UNEMPLOYED'
+  date: 'April 2017'
+  width: 1.40
+  color: '#f8f9fa'
+- id: 'levelup'
+  company_name: 'LevelUp Kids'
+  position: 'Lead Teacher/Camp Supervisor'
+  date: 'May 2017 - August 2017'
+  width: 5.97
+  color: '#5db200'
+- id: skipthedishes
+  company_name: 'SkipTheDishes'
+  position: 'Software Developer'
+  date: 'September 2017 - March 2019'
+  width: 28.36
+  color: '#A30E22'
