@@ -2,8 +2,7 @@
 layout: post
 title:  "Ceasar Salad!"
 
-image_url: "assets/images/480:480.png"
-image_aspect_ratio: "SQUARE"
+image_url: "assets/images/public-works.jpg"
 ---
 
 Lorem Ipsum Dollar set
