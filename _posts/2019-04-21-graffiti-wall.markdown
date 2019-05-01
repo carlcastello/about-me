@@ -2,7 +2,7 @@
 layout: post
 title:  "Not Potato Salad!"
 
-image_url: "assets/images/320:480.png"
+image_url: "assets/images/graffiti-wall.jpg"
 ---
 
 Not Lorem Ipsum Dollar set
