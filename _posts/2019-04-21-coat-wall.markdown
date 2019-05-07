@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "High Voltage Post!"
+
+image_url: "assets/images/coat-wall.png"
+---
+
+Lorem Ipsum Dollar set
